@@ -1,7 +1,7 @@
-module Array.Experimental
+module Array.Experimental exposing
   ( get, set, update
   , take, drop
-  ) where
+  )
 
 {-| Array.Experimental is a testing playground for various Array related functions. It contains functions that are experimental, unidiomatic, controversial or downright silly. This is specifically to not clutter Array and Array.Extra, and also have an isolated place to test crazy ideas.
 
